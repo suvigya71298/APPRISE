@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">APPRISE</string>
+    <string name="login_preference">com.example.srisa.suidhaga.login_status_login_preference</string>
+    <string name="login_status_preference">com.example.srisa.suidhaga.login_status_login_status_preference</string>
+
+    <string name="id_preference">com.example.srisa.suidhaga._id_preference</string>
+    <string name="password_prefernce">com.example.srisa.suidhaga._password_preference</string>
+    <string name="c_a_mexico_s_de_r_l">C A MEXICO S.DE R.L.</string>
+    <string name="sewing">SEWING</string>
+    <string name="reconciliation">Reconciliation</string>
+    <string name="dp_report">DP Report</string>
+    <string name="appp_full_name">APPAREL PRODUCTION INFORMATION SYSTEM FOR ENTERPRISES</string>
+    <string name="finishing">FINISHING</string>
+    <string name="buyer_name">Buyer Name -</string>
+    <string name="dashes">---- ---- ----</string>
+    <string name="style_no">Style No. -</string>
+    <string name="packing">PACKING</string>
+    <string name="select_job_number">Select Job Number</string>
+    <string name="submit">SUBMIT</string>
+    <string name="buyername">Buyer Name</string>
+    <string name="select_buyer_name">Select Buyer Name</string>
+    <string name="app_style_name">ＡＰＰＲＩＳＥ</string>
+    <string name="select_month">SELECT MONTH</string>
+    <string name="cutting">CUTTING</string>
+    <string name="APPRISE">APPRISE</string>
+    <string name="jobno">Job Number -</string>
+    <string name="todo">TODO</string>
+    <string name="ntc">Northern India Textile Research Association</string>
+    <string name="developed_by">Developed By-</string>
+    <string name="logi_n_pin">Login Pin</string>
+</resources>

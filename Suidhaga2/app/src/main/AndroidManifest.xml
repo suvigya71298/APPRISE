@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.suidhaga2">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:hardwareAccelerated="true"
+        
+        android:allowBackup="true"
+        android:usesCleartextTraffic="true"
+        android:icon="@drawable/app_mainlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/main"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:resizeableActivity="false"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".frrReport.FRRData"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DashBoard"/>
+
+        <activity android:name=".UpdatePinActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"
+            />
+
+
+        <activity android:name=".frrReport.FRRJobNumber"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DashBoard"/>
+
+
+        <activity android:name=".frrReport.FRRBuyerName"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DashBoard"
+            android:windowSoftInputMode="adjustResize"/>
+
+
+        <activity android:name=".dailyProductionReport.DPR_JobNo"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DashBoard"/>
+
+
+        <activity android:name=".dailyProductionReport.DPR_DisplayData"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DashBoard"/>
+
+
+        <activity android:name=".dailyProductionReport.DPR_BuyerName"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DashBoard"
+            android:windowSoftInputMode="adjustResize"/>
+
+
+        <activity android:name=".sewing.SewingJobNumber"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DashBoard"/>
+
+
+        <activity android:name=".sewing.SewingBuyerName"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DashBoard"
+            android:windowSoftInputMode="adjustResize"/>
+
+
+        <activity android:name=".sewing.Sewing_data"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DashBoard"/>
+
+
+        <activity android:name=".packing.PackingJobNumber"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DashBoard"/>
+
+
+        <activity android:name=".packing.PackingBuyerName"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DashBoard"
+            android:windowSoftInputMode="adjustResize"/>
+
+
+        <activity android:name=".packing.Packing_data"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DashBoard" />
+
+
+        <activity android:name=".finishing.FinishingJobNumber"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DashBoard"/>
+
+
+        <activity android:name=".finishing.FinishingBuyerName"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DashBoard"
+            android:windowSoftInputMode="adjustResize"/>
+
+
+        <activity android:name=".finishing.Finishing_data"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DashBoard"/>
+
+
+        <activity android:name=".cutting.CuttingBuyerName"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DashBoard"
+            android:windowSoftInputMode="adjustResize"/>
+
+
+        <activity android:name=".cutting.CuttingJobNumber"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DashBoard"/>
+
+
+        <activity android:name=".cutting.Cutting_data"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DashBoard"/>
+
+
+        <activity android:name=".SetPinActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DashBoard"
+            android:windowSoftInputMode="adjustResize"/>
+
+
+        <activity android:name=".PinLock"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+
+
+        <activity android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DashBoard"
+            android:windowSoftInputMode="adjustResize"/>
+
+
+        <activity android:name=".DashBoard"
+            android:screenOrientation="portrait"
+            />
+
+
+        <activity android:name=".SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
