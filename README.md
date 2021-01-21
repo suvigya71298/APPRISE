@@ -44,9 +44,9 @@ Main features of the application include:
     Buyer-wise packing data of a particular Job No. /Style will be displayed to the user.
 
 
+## Link to the Application Screenshots below:-
 
-
-
+    https://drive.google.com/drive/folders/1hHQe81s3P55Q480RYFXe3_5d-u_L7P_j?usp=sharing
 
 
 
